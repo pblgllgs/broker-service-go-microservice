@@ -7,7 +7,7 @@ import (
 
 type jsonResponse struct {
 	Error   bool   `json:"error"`
-	Message string `jso,:"message"`
+	Message string `json:"message"`
 	Data    any    `json:"data,omitempty"`
 }
 
